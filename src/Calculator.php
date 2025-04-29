@@ -29,7 +29,7 @@ class Calculator
 
     public function testError()
     {
-        $unused;
+        $unused;                    // ❌ variabel tidak pernah digunakan
         $result = $this->tambah(5); // ❌ kurang 1 argumen
         echo $resultt;              // ❌ salah ketik: $resultt tidak didefinisikan
         $obj = new UnknownClass();  // ❌ kelas UnknownClass tidak ada
