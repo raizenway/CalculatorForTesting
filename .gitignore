@@ -1,0 +1,4 @@
+/.phan
+/phan.php
+/php-ast
+/vendor
